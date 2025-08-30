@@ -1,0 +1,11 @@
+# pyenv-related ignores
+.python-version
+
+# Ignore virtual environments
+venv/
+.venv/
+
+# Byte-codes
+__pycache__/
+*.pyc
+*.pyo
