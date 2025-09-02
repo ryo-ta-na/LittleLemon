@@ -5,3 +5,6 @@
 __pycache__/
 *.pyc
 *.pyo
+
+# System files
+.DS_Store
