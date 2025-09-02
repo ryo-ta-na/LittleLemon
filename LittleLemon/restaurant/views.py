@@ -6,6 +6,10 @@ from .serializers import MenuSerializer, BookingSerializer
 from .models import Menu, Booking
 
 # Create your views here.
+# Static content
+def index(request):
+    return render(request, 'index.html', {})
+
 # Menu
 class MenuItemsView(ListCreateAPIView):
     queryset = Menu.objects.all()
