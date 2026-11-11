@@ -14,13 +14,13 @@
 
 # API paths to test
 ## Restaurant app
-/restaurant/ # static content
-/restaurant/menu
-/restaurant/menu/1
-/restaurant/booking/
+-/restaurant/ # static content
+-/restaurant/menu
+-/restaurant/menu/1
+-/restaurant/booking/
 
 ## LittleLemonAPI app
-/api/menu-items/
-/api/menu-items/1
-/api/message/ # Authentication required
-/api/api-token-auth # POST request with username and password fields as form data
+-/api/menu-items/
+-/api/menu-items/1
+-/api/message/ # Authentication required
+-/api/api-token-auth # POST request with username and password fields as form data
