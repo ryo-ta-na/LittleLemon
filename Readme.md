@@ -5,6 +5,15 @@
 -The password for the 'admin' user is updated in the DATABASES section in settings.py
 -At least one record is added to two tables: restaurant_booking and restaurant_menu
 
+![App Screenshot](LittleLemonFrontend.png)
+
+# Design
+## Tech Stack
+
+- **Frontend:** React.js
+- **Backend:** Django
+- **Database:** SQLite
+
 # API paths to test
 ## Restaurant app
 /restaurant/ # static content
